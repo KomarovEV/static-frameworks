@@ -60,7 +60,7 @@ Pod::Spec.new do |s|
   s.swift_version = '4.2'
 
   s.default_subspecs = 'Tasks', 'AppLinks'
-  s.source = { http: "https://yadi.sk/d/ZJPIaGD7M6iGIQ" }
+  s.source = { :path =>'/Users/nik/Desktop/Workspace/static-cocoa-frameworks.ios/Specs/Bolts-SCF42/1.9.0/Bolts-1.9.0-SCF42' }
 
   s.subspec 'StaticCocoaFramework' do |sc|
     sc.preserve_paths = 'Bolts.framework/*'
