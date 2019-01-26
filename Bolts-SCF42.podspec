@@ -60,7 +60,7 @@ Pod::Spec.new do |s|
   s.swift_version = '4.2'
 
   s.default_subspecs = 'Tasks', 'AppLinks'
-  s.source = { http: "https://github.com/NSemakov/static-frameworks/blob/master/Bolts-1.9.0-SCF423.zip?raw=true" }
+  s.source = { http: "https://github.com/NSemakov/static-frameworks/blob/master/Bolts-1.9.0-SCF424.zip?raw=true" }
 
   s.subspec 'StaticCocoaFramework' do |sc|
     sc.preserve_paths = 'Bolts.framework/*'
