@@ -102,6 +102,6 @@ Pod::Spec.new do |s|
     sc.resources = 'FBSDKCoreKit.framework/FacebookSDKStrings.bundle'
 
     # Dependencies
-    sc.dependency 'Bolts-SCF424', :git => 'https://github.com/KomarovEV/static-frameworks.git'
+    sc.dependency 'Bolts-SCF42', :git => 'https://github.com/KomarovEV/static-frameworks.git'
   end
 end
