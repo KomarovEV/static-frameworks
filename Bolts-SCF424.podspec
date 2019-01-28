@@ -53,7 +53,7 @@ Pod::Spec.new do |s|
 # MARK: - iOS Static Framework
 
   s.module_name = s.name
-  s.name = "#{s.name}-SCF424"
+  s.name = "#{s.name}-SCF42"
 
   s.platform = :ios
   s.ios.deployment_target = '9.0'
