@@ -4,7 +4,6 @@ Pod::Spec.new do |s|
   s.summary      = 'Bolts is a collection of low-level libraries designed to make developing mobile apps easier.'
   s.description  = <<-DESC
                     Bolts was designed by Parse and Facebook for our own internal use, and we have decided to open source these libraries to make them available to others. Using these libraries does not require using any Parse services. Nor do they require having a Parse or Facebook developer account.
-
                     The first component in Bolts is "tasks", which make organization of complex asynchronous code more manageable. A task is kind of like a JavaScript Promise, but available for iOS and Android.
                    DESC
   s.homepage     = 'https://github.com/BoltsFramework'
@@ -23,13 +22,10 @@ Pod::Spec.new do |s|
 =begin
     ss.ios.source_files = 'Bolts/Common/*.[hm]'
     ss.ios.public_header_files = 'Bolts/Common/*.h'
-
     ss.osx.source_files = 'Bolts/Common/*.[hm]'
     ss.osx.public_header_files = 'Bolts/Common/*.h'
-
     ss.watchos.source_files = 'Bolts/Common/*.[hm]'
     ss.watchos.public_header_files = 'Bolts/Common/*.h'
-
     ss.tvos.source_files = 'Bolts/Common/*.[hm]'
     ss.tvos.public_header_files = 'Bolts/Common/*.h'
 =end
@@ -40,7 +36,6 @@ Pod::Spec.new do |s|
 =begin
     ss.ios.deployment_target = '8.0'
     ss.dependency 'Bolts/Tasks'
-
     ss.ios.source_files = 'Bolts/iOS/**/*.[hm]'
     ss.ios.public_header_files = 'Bolts/iOS/*.h'
     ss.osx.source_files = ''
@@ -60,7 +55,7 @@ Pod::Spec.new do |s|
   s.swift_version = '4.2'
 
   s.default_subspecs = 'Tasks', 'AppLinks'
-  s.source = { http: "https://github.com/NSemakov/static-frameworks/blob/master/Bolts-1.9.0-SCF425.zip?raw=true" }
+  s.source = {http: "https://github.com/KomarovEV/static-frameworks/blob/master/Bolts-1.9.0-SCF424.zip?raw=true"}
 
   s.subspec 'StaticCocoaFramework' do |sc|
     sc.preserve_paths = 'Bolts.framework/*'
