@@ -86,7 +86,7 @@ Pod::Spec.new do |s|
   s.swift_version = '4.2'
 
   s.default_subspec = 'StaticCocoaFramework'
-  s.source = { http: "https://github.com/KomarovEV/static-frameworks/blob/master/FBSDKCoreKit-4.39.0-SCF42.zip" }
+  s.source = { http: "https://github.com/KomarovEV/static-frameworks/blob/master/FBSDKCoreKit-4.39.0-SCF42.zip?raw=true" }
 
   s.source_files = nil
   s.public_header_files = nil
