@@ -102,6 +102,6 @@ Pod::Spec.new do |s|
     sc.resources = 'FBSDKCoreKit.framework/FacebookSDKStrings.bundle'
 
     # Dependencies
-    #sc.dependency 'Bolts-SCF42', '~> 1.9.0'
+    sc.dependency 'Bolts-SCF42', '~> 1.9.0'
   end
 end
